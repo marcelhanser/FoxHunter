@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/PREF_CONFIGURATION" >
+        <EditTextPreference
+            android:defaultValue="@string/PREF_URL_DEFAULT"
+            android:key="PREF_SERVER_URL"
+            android:summary="@string/PREF_SERVER_SUMMARY"
+            android:title="@string/PREF_SERVER_URL" />
+
+        <CheckBoxPreference
+            android:defaultValue="@string/PREF_USER_NETWORK_DEFAULT"
+            android:key="PREF_USE_NETWORK_LOCATION"
+            android:summary="@string/PREF_USE_NETWORK_SUMMARY"
+            android:title="@string/PREF_USE_NETWORK_LOCATION" >
+        </CheckBoxPreference>
+
+        <Preference
+            android:enabled="false"
+            android:key="PREF_INFO_KEY"
+            android:persistent="false"
+            android:selectable="false"
+            android:summary="@string/PREF_INFO_SUMMARY"
+            android:title="@string/PREF_INFO" >
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

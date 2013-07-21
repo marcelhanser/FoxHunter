@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LY_MAIN"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/BT_M_FOX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/MAIN_FOX" />
+
+    <Button
+        android:id="@+id/BT_M_HUNTER"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/MAIN_HUNTER" />
+
+    <Button
+        android:id="@+id/BT_M_RESUME"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/MAIN_RESUME" />
+
+</LinearLayout>

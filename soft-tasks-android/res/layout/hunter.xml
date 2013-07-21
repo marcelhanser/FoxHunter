@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LY_HUNTER"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:text="@string/HUNTER_PLAYER_NAME" />
+
+    <EditText
+        android:id="@+id/ED_HUNTER_PLAYER_NAME"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textShortMessage"
+        android:text="@string/HUNTER_PLAYER_NAME" >
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:text="@string/HUNTER_GAME_ID" />
+
+    <EditText
+        android:id="@+id/ED_HUNTER_GAME_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:maxLength="5"
+        android:text="@string/HUNTER_GAME_ID" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/BT_HUNTER_START"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/BT_HUNTER_START" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ST_HUNTER_DEVICE_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="@string/ST_DEVICE_ID" />
+
+    <EditText
+        android:id="@+id/ED_HUNTER_DEVICE_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="none"
+        android:singleLine="true" >
+
+        <requestFocus />
+    </EditText>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema targetNamespace="http://soft.gis/v1"
+	elementFormDefault="qualified" attributeFormDefault="unqualified"
+	xmlns:gis="http://soft.gis/v1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="location">
+		<xs:complexType>
+			<xs:attribute name="lon" type="xs:float" use="required" />
+			<xs:attribute name="lat" type="xs:float" use="required" />
+			<xs:attribute name="timestamp" type="xs:dateTime" use="optional" />
+			<xs:attribute name="gamerName" type="xs:string" use="required" />
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="azimuth">
+		<xs:complexType>
+			<xs:attribute name="value" type="xs:float" use="required" />
+			<xs:attribute name="timestamp" type="xs:dateTime" use="optional" />
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

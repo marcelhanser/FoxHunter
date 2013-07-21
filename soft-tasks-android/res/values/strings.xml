@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="GAME_NAME">Fox Hunting</string>
+    <string name="GAME_ID">Game Id</string>
+    <string name="MAIN_FOX">Fox</string>
+    <string name="MAIN_HUNTER">Hunter</string>
+    <string name="MAIN_RESUME">Resume</string>
+    <string name="GAME_GAME_ON">Connected</string>
+    <string name="GAME_GAME_OFF">Off</string>
+    <string name="GAME_GAME_ROLE">Role</string>
+    <string name="GAME_NO_LOCATION">No fine enough location service found!</string>
+    <string name="GAME_ENABLE_GPS">Please enable GPS</string>
+    <string name="GAME_CHANGE_SETTINGS">Settings</string>
+    <string name="GAME_CANCEL">Cancel</string>
+    <string name="ST_FOX_GAME_ID">Game id (share this id to hunters of your faith ;))</string>
+    <string name="ED_FOX_GAME_ID">xxxxx</string>
+    <string name="FOX_START">Start</string>
+    <string name="ST_FOX_GAMER_NAME">Gamer Name:</string>
+    <string name="ED_FOX_GAMER_NAME">Fox</string>
+    <string name="ST_DEVICE_ID">Device ID</string>
+    <string name="ED_DEVICE_ID">xxxxxx</string>
+    <string name="BT_HUNTER_START">Start</string>
+    <string name="HUNTER_PLAYER_NAME">Player Name</string>
+    <string name="HUNTER_GAME_ID">Enter Game Id</string>
+    <string name="ARROW">arrow</string>
+    <string name="GAME_GPS">GPS</string>
+    <string name="GAME_CONNECTED">Connected</string>
+    <string name="SETTINGS_NAME">TODO</string>
+    <string name="SETTINGS_SERVER_URL">TODO</string>
+    <string name="SETTINGS_SERVER_DEFAULT">TODO</string>
+    <string name="GAME_LAST_UPDATE">Last Update</string>
+    <string name="PREF_URL_DEFAULT">http://91.228.52.101/game</string>
+    <string name="PREF_USER_NETWORK_DEFAULT">false</string>
+    <string name="PREF_CONFIGURATION">Configuration</string>
+    <string name="PREF_SERVER_SUMMARY">Set the server URL</string>
+    <string name="PREF_SERVER_URL">Server URL</string>
+    <string name="PREF_USE_NETWORK_SUMMARY">Enables the network location sensor as a fallback if GPS is not available</string>
+    <string name="PREF_USE_NETWORK_LOCATION">Use Network Location</string>
+    <string name="PREF_INFO_SUMMARY">Martin Kölbl &amp; Marcel Hanser</string>
+    <string name="PREF_INFO">Die Kohlpriester</string>
+    <string name="MENU_SETTINGS">Settings</string>
+    <string name="GAME_FOX_LAST_UPDATE">Last Update (F)</string>
+    <string name="GAME_BUFFERED">Buffer</string>
+    <string name="GAME_BACK_TITLE">Close Game?</string>
+    <string name="GAME_BACK_DESC">Do You really want to stop the game? You might let it also run in the backgroung by pressing the home button.</string>
+    <string name="GAME_BACK_OK">Yes</string>
+    <string name="GAME_BACK_CANCEL">No</string>
+
+</resources>
