@@ -21,14 +21,6 @@ import com.google.common.collect.Lists;
 import com.sun.jersey.api.client.Client;
 import com.sun.jersey.api.client.WebResource;
 
-import de.micromata.opengis.kml.v_2_2_0.Camera;
-import de.micromata.opengis.kml.v_2_2_0.Document;
-import de.micromata.opengis.kml.v_2_2_0.Kml;
-import de.micromata.opengis.kml.v_2_2_0.KmlFactory;
-import de.micromata.opengis.kml.v_2_2_0.LookAt;
-import de.micromata.opengis.kml.v_2_2_0.Placemark;
-import de.micromata.opengis.kml.v_2_2_0.TimeStamp;
-import de.micromata.opengis.kml.v_2_2_0.atom.Author;
 
 public class TestClass {
 	private DatatypeFactory fact;
@@ -40,35 +32,6 @@ public class TestClass {
 	@Before
 	public void before() throws DatatypeConfigurationException {
 		fact = DatatypeFactory.newInstance();
-	}
-
-	@Test
-	public void tesKml() {
-
-		Kml kml = KmlFactory.createKml();
-
-		LookAt createCamera = KmlFactory.createLookAt();
-		createCamera.setHeading(258);
-
-		Placemark createPlacemark = KmlFactory.createPlacemark();
-		TimeStamp createTimeStamp = KmlFactory.createTimeStamp();
-		createTimeStamp.setWhen("asdf");
-
-		// createPlacemark.set
-		Author createAtomAuthor = KmlFactory.createAtomAuthor();
-		createAtomAuthor.setNameOrUriOrEmail(Lists.newArrayList("Hans"));
-		createPlacemark.setTimePrimitive(createTimeStamp);
-		createPlacemark.setAbstractView(createCamera);
-		createPlacemark.setAtomAuthor(createAtomAuthor);
-
-		kml.setFeature(createPlacemark);
-		StringWriter stringWriter = new StringWriter();
-		kml.marshal(stringWriter);
-		System.out.println(stringWriter.toString());
-
-		// kml.
-		// kml.setFeature(createCamera);
-
 	}
 
 	@Test

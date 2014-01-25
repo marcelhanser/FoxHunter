@@ -13,6 +13,7 @@
 			<plugin>
 				<groupId>org.jvnet.jaxb2.maven2</groupId>
 				<artifactId>maven-jaxb2-plugin</artifactId>
+				<version>0.8.3</version>
 				<executions>
 					<execution>
 						<goals>
@@ -31,13 +32,8 @@
 	<dependencies>
 		<dependency>
 			<groupId>kn.uni.gis</groupId>
-			<artifactId>hard-tasks</artifactId>
+			<artifactId>data-import</artifactId>
 			<version>${project.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>de.micromata.jak</groupId>
-			<artifactId>JavaAPIforKml</artifactId>
-			<version>2.2.0</version>
 		</dependency>
 		<dependency>
 			<groupId>postgresql</groupId>
